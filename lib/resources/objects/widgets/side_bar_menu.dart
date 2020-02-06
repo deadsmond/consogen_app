@@ -30,16 +30,13 @@ Drawer sideBarMenu(context){
               child:
               Text('', style: TextStyle(color: Colors.white)),
               decoration: BoxDecoration(
-                  color: Colors.green
+                  color: Colors.redAccent
               ),
               margin: EdgeInsets.all(0.0),
               padding: EdgeInsets.all(0.0)
           ),
         ),
-        sideBarMenuElement(context, 'Map', Icon(Icons.location_on), '/map'),
-        sideBarMenuElement(context, 'Profile', Icon(Icons.account_circle), '/profile'),
-        sideBarMenuElement(context, 'Actions', Icon(Icons.access_alarm), '/actions'),
-        sideBarMenuElement(context, 'Community', Icon(Icons.language), '/community'),
+        sideBarMenuElement(context, 'Generator', Icon(Icons.remove_red_eye), '/generator'),
         sideBarMenuElement(context, 'Settings', Icon(Icons.settings_applications), '/settings'),
         sideBarMenuElement(context, 'About', Icon(Icons.info_outline), '/about'),
       ],

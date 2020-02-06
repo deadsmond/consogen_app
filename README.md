@@ -50,64 +50,27 @@ Optimization:
 
 ## Technical details
 * ConsogenApp current min SDKVersion (Android level) is 18.
-* App main colour is `HEX: 4CAF50` or `RGBA: 76 175 80 100`.
-* Custom icons were created in [Android Asset Studio Launcher icon generator](https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html#foreground.type=clipart&foreground.clipart=location_on&foreground.space.trim=0&foreground.space.pad=0.3&foreColor=rgb(76%2C%20175%2C%2080)&backColor=rgb(255%2C%20255%2C%20255)&crop=0&backgroundShape=circle&effects=elevate&name=ic_launcher).
+* App main colour is `HEX: F4511E`.
+* Custom icons were created in [Android Asset Studio Launcher icon generator](https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html#foreground.type=clipart&foreground.clipart=remove_red_eye&foreground.space.trim=0&foreground.space.pad=0&foreColor=rgb(244%2C%2081%2C%2030)&backColor=rgb(255%2C%20255%2C%20255)&crop=0&backgroundShape=square&effects=shadow&name=ic_launcher).
 * No custom icons for iOS are developed yet.
 * New screens (or views) should be operated by Navigator as in [this example](https://flutter.dev/docs/cookbook/navigation/named-routes).
 * Custom loading screen can be added as shown in [this medium tutorial](https://medium.com/@jongzpuangput/flutter-splash-screen-5c8a0001721b).
 
-### Objects
-FlatMapp uses objects (classes) to define packages of functions.
+### API
 
-Currently FlatMapp uses:
-* Loaders:
-
-    marker loader operates on JSON list of objects, as follows:
-    
-        [
-          {"position": [41.147125, -8.611249], "icon": "home"},
-          {"position": [41.145599, -8.610691], "icon": "pointer"},
-          {"position": [41.145645, -8.614761], "icon": "taxi"},
-          {"position": [41.146775, -8.614913], "icon": "water"},
-          
-          in general:
-          {"position": [double latitude, double longitude], "icon": "id from icons loader"}
-        ]
-
-* Map:
-
-    * GoogleMapsWidget - object operating map usage
-
-* Widgets:
-
-    * app_bar - app bar widget, common for all routes;
-    * bottom_navigation_bar - navigation bar button to return 
-    to the previous route, common for all routes;
-    * side_bar_menu - sidebar menu widget, operating access to all routes,
-    common for all routes;
-    * text_styles - styles for text used in application. 
-    Contains *header*, *bodyText* and *footer* styles.
 
 ### Routes
 Routes are application views. Each new screen presented in the app 
 is another route.
 
-Currently FlatMapp uses 6 routes:
+Currently ConsogenApp uses 3 routes:
 
-1. MapRoute - main view with map;
-2. ProfileRoute - view of user profile;
-3. ActionsRoute - view of user-defined triggers;
-4. CommunityRoute - view of community-choice triggers;
-5. SettingsRoute - view of application settings;
-6. AboutRoute - about page, presenting basic information about team,
+1. MainRoute - main view;
+2. SettingsRoute - view of application settings;
+3. AboutRoute - about page, presenting basic information about team,
 license and application fundations; 
 
 ## Notes
-### Design
-*preferences* package: 
-[libraries](https://pub.dev/documentation/preferences/latest/index.html) | 
-[example code](https://gitlab.com/redsolver/preferences/blob/master/example/lib/main.dart)
-  
 
 ### Debugging notes
 none

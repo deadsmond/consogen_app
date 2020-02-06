@@ -21,8 +21,8 @@ class _SettingsRouteState extends State<SettingsRoute> {
       DropdownPreference(
         'Start Page',
         'start_page',
-        defaultVal: 'Map',
-        values: ['About', 'Actions', 'Community', 'Map', 'Profile', 'Settings'],
+        defaultVal: 'Generator',
+        values: ['Generator', 'Settings', 'About'],
       ),
       PreferenceTitle('Personalization', style: header()),
       RadioPreference(
@@ -43,29 +43,7 @@ class _SettingsRouteState extends State<SettingsRoute> {
         },
       ),
 
-
-      PreferenceTitle('Actions', style: header()),
-      SwitchPreference(
-        'Enable cloud save',
-        'cloud_enabled',
-        defaultVal: false,
-      ),
-
-      PreferenceTitle('Community', style: header()),
-      SwitchPreference(
-        'Enable community actions download',
-        'community_enabled',
-        defaultVal: false,
-      ),
-
-      PreferenceTitle('Map', style: header()),
-      SwitchPreference(
-        'Enable map loading',
-        'map_enabled',
-        defaultVal: false,
-      ),
-
-      PreferenceTitle('Profile', style: header()),
+      footerTile(),
 
     ]);
   }

@@ -21,8 +21,6 @@ dependencies:
     sdk: flutter
   # internet requests
   http: ^0.12.0+4
-  # file saving
-  permission_handler: ^4.0.0
   # easy settings route
   preferences: ^5.0.2
   # dynamic theme service

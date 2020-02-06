@@ -50,3 +50,13 @@ Padding textInfo(String text){
     ),
   );
 }
+
+ListTile footerTile(){
+  return ListTile(
+    title: Text(
+      'Deadsmond @ 2020',
+      style: footer(),
+      textAlign: TextAlign.center,
+    ),
+  );
+}

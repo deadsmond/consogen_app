@@ -4,8 +4,8 @@ import 'package:flutter/services.dart';
 
 AppBar appBar(){
   return new AppBar(
-    title: Text('FlatMApp prototype'),
-    backgroundColor: Color(0xFF4CAF50),
+    title: Text('CONSΔGEN'),
+    backgroundColor: Colors.redAccent,
     actions: <Widget>[
       new IconButton(
         icon: new Icon(Icons.close),

@@ -28,27 +28,21 @@ class AboutRoute extends StatelessWidget {
             ),
             ListTile(
               title: Text(
-                'FlatMapp is an engineering project, aiming at creation of '
-                'geolocation manager, triggering user-defined actions in '
-                'declared geographical position.',
+                'Consogen is a conspiracy generator, that allows to generate '
+                'connection from random article to anything... or Illuminati.\n',
                 style: bodyText(),
               ),
             ),
             ListTile(
               title: Text(
-                'FlatMapp is free to use and is not gathering any personal data '
+                'Consogen is free to use and is not gathering any personal data '
                 'without user consent. All data gathered from application, such '
-                'as user settings, saved locations and custom triggers are '
-                'anonymized before gathering. ',
+                'as user settings or locations are anonymized before gathering.\n',
                 style: bodyText(),
               ),
             ),
-            ListTile(
-              title: Text(
-                'FlatMapp Team @ 2020',
-                style: footer(),
-              ),
-            ),
+
+            footerTile(),
           ],
         ).toList(),
       ),
