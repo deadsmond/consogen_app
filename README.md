@@ -51,7 +51,7 @@ Optimization:
 ## Technical details
 * ConsogenApp current min SDKVersion (Android level) is 18.
 * App main colour is `HEX: F4511E`.
-* Custom icons were created in [Android Asset Studio Launcher icon generator](https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html#foreground.type=clipart&foreground.clipart=remove_red_eye&foreground.space.trim=0&foreground.space.pad=0&foreColor=rgb(244%2C%2081%2C%2030)&backColor=rgb(255%2C%20255%2C%20255)&crop=0&backgroundShape=square&effects=shadow&name=ic_launcher).
+* Custom icons were created in [Android Asset Studio Launcher icon generator](https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html#foreground.type=clipart&foreground.clipart=remove_red_eye&foreground.space.trim=0&foreground.space.pad=-0.05&foreColor=rgb(216%2C%2057%2C%201)&backColor=rgb(255%2C%20255%2C%20255)&crop=0&backgroundShape=none&effects=score&name=ic_launcher)
 * No custom icons for iOS are developed yet.
 * New screens (or views) should be operated by Navigator as in [this example](https://flutter.dev/docs/cookbook/navigation/named-routes).
 * Custom loading screen can be added as shown in [this medium tutorial](https://medium.com/@jongzpuangput/flutter-splash-screen-5c8a0001721b).
