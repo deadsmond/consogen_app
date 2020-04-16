@@ -11,7 +11,7 @@ Previous versions:
 Incoming version:
 *
 
-Project website: (Deadsmond Consogen)[https://deadsmond.pythonanywhere.com/consogen]
+Project website: [Deadsmond Consogen](https://deadsmond.pythonanywhere.com/consogen)
 
 ## Getting Started
 
